@@ -1,0 +1,98 @@
+body {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 20px;
+  font-size: 40px;
+  background-color: rgba(227, 129, 73, 0.635);
+}
+
+h1 {
+  text-align: center;
+  animation: fadeIn 1s ease-in;
+animation-duration: 1s;
+animation-direction: column;
+color: antiquewhite;
+
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: antiquewhite;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 40px;
+  animation: slideIn 1s ease-in;
+ 
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 300px;
+  padding: 20px;
+  animation: fadeIn 1s ease-in;
+  font-size: 20px;
+  border-radius: 2px;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 100px;
+  padding: 20px 28px;
+  background-color: #ffffff;
+  color: #000000;
+  border: rgb(0, 0, 0);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in;
+  
+}
+
+button:hover {
+  background-color: #49e253;
+}
+
+.result {
+  margin-top: 100px;
+  display: none;
+  animation: fadeIn 1s ease-in;
+  font-size: 50px;
+}
+
+.show {
+  display: block;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-image: url('Back\ Ground.jpg');
+  background-size: cover;
+}
